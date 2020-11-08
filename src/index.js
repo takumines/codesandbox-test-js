@@ -70,3 +70,22 @@
 // // テンプレート文字列を用いた場合
 // const message2 = `私の名前は${name}です。年齢は${age}歳です。`;
 // console.log(message2);
+
+/**
+ * アロー関数について
+ */
+
+// 従来の関数
+const func1 = function (str) {
+  return str;
+};
+console.log(func1("test"));
+
+// アロー関数
+// 処理が一行で終わる場合はreturnを省略できる
+const func2 = (str) => str;
+console.log(func2("func2です"));
+
+const func3 = (num1, num2) => num1 + num2;
+
+console.log(func3(10, 20));
