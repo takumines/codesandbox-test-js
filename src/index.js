@@ -32,8 +32,8 @@
  * constについて
  */
 
-const val3 = "const変数";
-console.log(val3);
+// const val3 = "const変数";
+// console.log(val3);
 
 // const変数は上書き不可
 //  val3 = "const変数の上書き";
@@ -55,3 +55,18 @@ console.log(val3);
 // val5[0] = 'bird';
 // val5.push("monkey");
 // console.log(val5);
+
+/**
+ * テンプレート文字列について
+ */
+
+// const name = "拓巳";
+// const age = 25;
+
+// // 「私の名前は拓巳です。年齢は25歳です。」
+// const message1 = "私の名前は" + name + "です。年齢は" + age + "歳です。";
+// console.log(message1);
+
+// // テンプレート文字列を用いた場合
+// const message2 = `私の名前は${name}です。年齢は${age}歳です。`;
+// console.log(message2);
